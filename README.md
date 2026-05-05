@@ -18,13 +18,20 @@
 * **代码健壮**：1，若自动切换课程失败，可以通过重新启动脚本，在脚本切回主页面后，30秒内点击右上角头像里的我的课程，辅助代码找到下一门课。2，打开网页后，若存在广告或网页加载较慢等问题，代码可自动等待两分钟再运行。
 
 ## Usage (使用说明)
+
 1. **安装环境**：
    因为使用了 selenium 库中的 Edge Driver，所以需要安装 Edge 浏览器，并从 [Microsoft 官网](https://developer.microsoft.com/zh-cn/microsoft-edge/tools/webdriver/) 下载对应版本的 WebDriver。下载完后解压，将 `msedgedriver.exe` 放到 Python 解释器的根目录下。
 
 2. **安装依赖库**：
    在终端（Terminal）运行以下命令安装必要的 Python 扩展包：
-   
    ```bash
    git clone https://github.com/River-ut/USTB-RongYouXueTang-2508-WuYu-River-Automation-script.git
    cd USTB-RongYouXueTang-2508-WuYu-River-Automation-script
    pip install tqdm selenium ddddocr
+3.编辑main.py 更改其中的username、password、school_code
+4.
+*方案一
+在terminal中运行脚本：输入命令：python main.py
+*方案二
+直接将main.py中的代码复制粘贴到VScode或者PyCharm上运行。
+   
