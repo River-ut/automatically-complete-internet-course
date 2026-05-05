@@ -25,4 +25,6 @@
    在终端（Terminal）运行以下命令安装必要的 Python 扩展包：
    
    ```bash
+   git clone https://github.com/River-ut/USTB-RongYouXueTang-2508-WuYu-River-Automation-script.git
+   cd USTB-RongYouXueTang-2508-WuYu-River-Automation-script
    pip install tqdm selenium ddddocr
